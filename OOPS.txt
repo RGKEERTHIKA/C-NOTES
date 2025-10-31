@@ -1,0 +1,158 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+class Car{
+    public://public access specifier
+    string brand ;
+    string model;
+    int price;
+    int year;
+    
+    //fun
+};
+
+int main(){
+    Car car1 ; //creating an object of the class car
+    car1 . brand = " BMW ";
+    car1 . model = " B-class ";
+    car1 . price = 5000000   ;
+    car1 . year =  2024 ;
+    
+    cout<<car1.brand<<endl;//direct method of printing
+    cout<<car1.model<<endl;//direct method of printing
+    
+    
+    
+     return 0;
+    }
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+class Car{
+    public://public access specifier
+    string brand ;
+    string model;
+    int price;
+    int year;
+    
+    //function to display the output
+    void display()
+    {
+       cout<<"brand name"<<brand<<endl;
+    cout<<"model name"<<model<<endl;
+    cout<<"price"<<price<<endl;
+    cout<<"years of manufacturing"<<year<<endl; 
+    }
+    
+    
+};
+
+int main(){
+    Car car1 ; //creating an object of the class car
+    car1 . brand = " BMW ";
+    car1 . model = " B-class ";
+    car1 . price = 5000000   ;
+    car1 . year =  2024 ;
+    
+    cout<<car1.brand<<endl;
+    cout<<car1.model<<endl;
+    cout<<car1.price<<endl;
+    cout<<car1 .year<<endl;
+    
+    
+   
+    
+
+    
+     return 0;
+    }
+
+    
+    
+     
+
+
+
+#include <iostream>
+using namespace std;
+
+class Car{
+    public://public access specifier
+    string brand ;
+    string model;
+    int price;
+    int year;
+    
+    //function to display the output
+    void display()
+    {
+       cout<<"brand name"<<brand<<endl;
+    cout<<"model name"<<model<<endl;
+    cout<<"price"<<price<<endl;
+    cout<<"years of manufacturing"<<year<<endl; 
+    }
+    
+    
+};
+
+int main(){
+    Car car1 ; //creating an object of the class car
+    car1 . brand = " BMW ";
+    car1 . model = " B-class ";
+    car1 . price = 5000000   ;
+    car1 . year =  2024 ;
+    
+    
+
+    Car car2; //creating an object of the class car
+    car2 . brand = " Mercedes ";
+    car2 . model = " g-class ";
+    car2 . price = 7000000   ;
+    car2 . year =  2014 ;
+    
+     
+    
+    
+   
+    
+
+    
+     return 0;
+    }
+

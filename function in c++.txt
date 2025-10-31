@@ -1,0 +1,124 @@
+function in c++ 
+a function in c++ is a group of statements that performs a specific task and can be reused anywhere in the program
+
+1.reusability : write once,use many times
+2.readability : code becomes easier to read and understand
+3.debugging : errors are easier to find since each function is small and focused 
+4.modularity : larger programs are divided into smaller parts
+5.collaboration :
+
+1.//function in c++ a simple one
+#include <iostream>
+using namespace std;
+
+//function defination
+void great()
+{
+    cout<<"HAPPY BIRTHDAY!!!!!"<<endl;
+    
+}
+int main ()
+{
+    great(); //calling the function
+    great();
+    //body
+    return 0;
+}
+
+
+2.//function in c++ a simple one
+#include <iostream>
+using namespace std;
+
+ 
+     //function defination
+int add (int a ,int b) //passing partameters
+
+{
+  return a+b;  //returning the values
+    }
+int mul (int a, int b)
+{
+    return a*b;
+}
+int sub (int a,int b)
+{
+    return a-b;
+}
+int main ( ) 
+{
+cout<<"addition:"<< add (5,10)<<endl;
+cout<<"multiplication:"<< mul(5,10)<<endl;
+cout<<"subtraction:"<<sub(5,10)<<endl;
+
+return 0;  
+ }
+
+3.another example
+
+//function in c++ a simple one
+#include <iostream>
+using namespace std;
+
+ 
+     //function defination
+int add (int a ,int b) //passing partameters
+
+{
+  return a+b;  //returning the values
+    }
+int mul (int a, int b)
+{
+    return a*b;
+}
+int sub (int a,int b)
+{
+    return a-b;
+}
+int main ( ) 
+{
+cout<<"addition:"<< add (2.5,1.7)<<endl;
+cout<<"multiplication:"<< mul(2.5,1.7)<<endl;
+cout<<"subtraction:"<<sub(2.5,1.7)<<endl;
+
+return 0;  
+ }
+
+
+4.//function in c++ a simple one
+#include <iostream>
+using namespace std;
+
+ 
+     //function defination
+int add (int a ,int b) //passing partameters
+
+{
+  return a+b;  //returning the values
+    }
+int mul (int a, int b)
+{
+    return a*b;
+}
+int sub (int a,int b)
+{
+    return a-b;
+}
+float dip1(int a, int b )
+{
+   if (b==0)
+   {
+       cout<<"division by zero!! infinte"<<endl;
+       return 0;
+   }
+   return (float)a/b;
+}
+int main ( ) 
+{
+cout<<"addition:"<< add (2.5,1.7)<<endl;
+cout<<"multiplication:"<< mul(3.5,5)<<endl;
+cout<<"subtraction:"<<sub(20,6)<<endl;
+cout<<"division"<<dip1(10,2)<<endl;
+return 0;  
+ }
+
